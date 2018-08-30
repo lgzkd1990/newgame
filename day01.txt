@@ -1,0 +1,6 @@
+cd C:\Users\lgzkd\Anaconda3\Scripts
+conda create -n py27 python=2.7
+activate py27
+在上面的环境中安装
+pip install ipykernel
+python -m ipykernel install -user
